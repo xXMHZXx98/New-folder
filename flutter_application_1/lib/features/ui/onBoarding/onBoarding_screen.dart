@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/core/helpers/spacing.dart';
 import 'package:flutter_application_1/core/theme/styles.dart';
 import 'package:flutter_application_1/features/ui/onBoarding/widgets/doclogo.dart';
 import 'package:flutter_application_1/features/ui/onBoarding/widgets/get_started_button.dart';
@@ -31,9 +32,7 @@ class onBoardingScreen extends StatelessWidget {
                     style: TextStyles.font13GrayRegular,
                     textAlign: TextAlign.center,
                   ),
-                  SizedBox(
-                    height: 30.h,
-                  ),
+                 verticalSpace(36),
                   GetStartedButton(),
                 ],
               ),
