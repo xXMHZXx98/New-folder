@@ -1,0 +1,14 @@
+import 'package:flutter/material.dart';
+const Color myorange = Color(0xffff9329);
+const Color mygrey = Color(0xff353542);
+const Color greyText = Color(0xFF83839C);
+const Color greyContainer = Color(0x0FCFCFFC);
+const Color myblack = Color(0xff1c1c23);
+const Color mygreen = Color(0xFF71AA27);
+const Color myblue = Color.fromARGB(255, 29, 93, 221);
+const Color mypurple = Color.fromARGB(255, 165, 19, 255);
+const Color mywhite = Color.fromARGB(255, 255, 255, 255);
+const logo = 'images/logo.svg';
+const youtube = 'images/YT Premium Lgoo.svg';
+const spotify = 'images/Spotify Logo.svg';
+const onedrive = 'images/OneDrive Logo.svg';
